@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.nave{
+    background-color: rgb(30, 1, 1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nave li{
+    list-style: none;
+}
+.nave a {
+    color: rgba(243, 221, 98, 0.928);
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.logo{
+    color: rgba(243, 221, 98, 0.928);
+    font-weight: 800;
+    letter-spacing: 12px ;
+    font-size: 18px;
+}
+.nave ul{
+    display: flex;
+}
+.nave ul li a{
+    padding: 10px;
+}
+.text-head{
+    display: flex;
+    flex-direction: column;
+}
+    
+.tb button{
+    margin: 0 5px;
+}
